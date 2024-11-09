@@ -1065,3 +1065,60 @@ textarea#comment.massage-bt::placeholder {
 .margin_90{
     margin: 90px 0px;
 }
+.portafolio {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card .foto {
+    border-radius: 8px;
+    width: 120px;
+    height: 160px; /* Tamaño similar a una foto de identidad */
+    object-fit: cover;
+}
+
+.card .info {
+    flex: 1;
+}
+
+.card .info h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.card .info p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
